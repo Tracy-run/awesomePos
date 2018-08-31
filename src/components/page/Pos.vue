@@ -1,7 +1,7 @@
 <template>
     <div class="pos">
         <el-row>
-            <el-col :span='8' class="pos-order" id="order-List">
+            <el-col :span='7' class="pos-order" id="order-List">
                 <el-tabs>
                     <el-tab-pane label="点餐">
                         <el-table :data="tableData" border style="width=100%">
@@ -28,7 +28,7 @@
                     <el-tab-pane label="外卖"></el-tab-pane>
                 </el-tabs>
             </el-col>
-            <el-col :span='16'>
+            <el-col :span='17'>
                 <div class="often-goods">
                     <div class="title">常用商品</div>
                     <div class="often-goods-list">
@@ -452,7 +452,7 @@ o-price {
 }
 .cookList li span {
     display: block;
-    float:right;  
+    float:center;  
 }
 foodImg{
     width:40%;
